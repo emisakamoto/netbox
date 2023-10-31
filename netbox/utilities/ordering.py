@@ -9,7 +9,7 @@ INTERFACE_NAME_REGEX = r'(^(?P<type>[^\d\.:]+)?)' \
                        r'((?P<slot>\d+)/)?' \
                        r'((?P<subslot>\d+)/)?' \
                        r'((?P<position>\d+)/)?' \
-                       r'((?P<subposition>\d+)/)?' \
+                       r'((?P<subposition>\d+)/?)?' \
                        r'((?P<id>\d+))?' \
                        r'(:(?P<channel>\d+))?' \
                        r'(\.(?P<vc>\d+))?' \
